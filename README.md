@@ -2,12 +2,6 @@
 We trained various linear regression models using only Voltage data and compared their
 performace based on the Mean Absolute Error metric. We used Scikit-learn to prepare these models.
 
-  Model                 MAE (O3)            MAE (NO2)       Remarks
-Linear Regression   5.625937735514925 6.540100093842793   No regularization
-Ridge               5.626671848882224 6.536821620242424   α = 1000
-Lasso               5.625934686641408 6.537024370281168   α = 0.0001
-
-
 Conclusion:While Ridge Regression best predicted the O3 values, Lasso performed better for N02 levels. Lasso 
 performed better based on the combined MAE values.
 
